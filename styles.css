@@ -1,10 +1,16 @@
 /*  your css code here. If applicable */
-.navbar{
-	background-color: #D3D3D3;
-	padding: 10px;
-	display: inline;
-	margin-right: 1rem;
+.container{
+	display:inline;
+	background-color:#D3D3D3;
+	padding:10px;
+	
 }
-.navbar li{
-	 list-style-type: none;
+
+.container ul{
+	display: flex;
+}
+
+.container li{
+	margin-right:1rem;
+	list-style:none;
 }
